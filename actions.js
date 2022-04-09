@@ -12,7 +12,10 @@ var app = new Vue({
             borradorIn: 0,
             sacapuntasIn: 0,
             libretasIn: 0,
-            imag: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/UNO_Logo.svg/1200px-UNO_Logo.svg.png"
+            imag: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/UNO_Logo.svg/1200px-UNO_Logo.svg.png",
+            name: 'Ana Lizbeth Zermeno Torres',
+            matricula: 'A00824913',
+            titulo: 'Practica 6 - VueJs'
         }
     },
     methods: {

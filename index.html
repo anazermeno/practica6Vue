@@ -3,7 +3,7 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
         <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
     </head>
-    <body>
+    <body style="background-color:rgb(204, 232, 193);">
 
       <div>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -63,19 +63,19 @@
 
                 <p>Pluma:</p>
                 <p ref="plumaIn">0</p>
-                <button type="button" class="btn btn-success" @click="autoPluma">solicitar inventario</button>
+                <button type="button" class="btn btn-success" @click="autoPluma">Solicitar inventario</button>
 
                 <p>Borrador:</p>
                 <p ref="borradorIn">0</p>
-                <button type="button" class="btn btn-success" @click="autoBorrador">solicitar inventario</button>
+                <button type="button" class="btn btn-success" @click="autoBorrador">Solicitar inventario</button>
 
                 <p>Sacapuntas:</p>
                 <p ref="sacapuntasIn">0</p>
-                <button type="button" class="btn btn-success" @click="autoSacapuntas">solicitar inventario</button>
+                <button type="button" class="btn btn-success" @click="autoSacapuntas">Solicitar inventario</button>
 
                 <p>Libreta:</p>
                 <p ref="libretasIn">0</p>
-                <button type="button" class="btn btn-success" @click="autoLibreta">solicitar inventario</button>
+                <button type="button" class="btn btn-success" @click="autoLibreta">Solicitar inventario</button>
             </div>
 
             <div class = "col">
@@ -83,13 +83,17 @@
                 <div>
                     <img style="width:200px;height:150px;display: block;margin: 0 auto;" v-bind:src="imag">
                 </div>
+                <div>
+                    <h6>Nombre del autor: {{name}}</h6>
+                    <h6>Matricula del autor: {{matricula}}</h6>
+                    <h6>Titulo de la act: {{titulo}}</h6>
+                </div>
             </div>
           </div>
 
         </div>
         
         <script src="actions.js"></script>
-
 
     </body>
 </html>
